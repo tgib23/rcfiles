@@ -10,3 +10,7 @@ set smartcase
 set hlsearch
 noremap ; : 
 noremap : ; 
+set autowrite
+au BufNewFile,BufRead *.c set showmatch
+au BufNewFile,BufRead *.cc set showmatch
+au BufNewFile,BufRead *.cpp set showmatch
